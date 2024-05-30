@@ -1,0 +1,41 @@
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background: linear-gradient(135deg, #ffffff, #000000);
+}
+.heroImage img {
+	height: 90vh;
+    max-width: 730px;
+}
+.heroRight{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    max-width: 600px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    margin-right: 90px;
+    line-height: 40px;
+    
+}
+.heroRight p{
+    font-size: 30px;
+    font-weight: 400;
+}
+.heroRight button{
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+    
+}
+.heroRight button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
